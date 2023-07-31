@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="xiaopeng.zdys.mapper.BookMapper">
+
+    <insert id="addBooks" parameterType="xiaopeng.zdys.pojo.Books">
+        insert into books(bookName, bookCounts, detail) values (#{bookName},#{bookCounts},#{detail})
+    </insert>
+
+    <update id="updateBook" parameterType="xiaopeng.zdys.pojo.Books">
+        update books
+        <set>
+            <if test="bookName != null">
+                bookName = #{bookName}
+            </if>
+            <if test="bookCounts != 0">
+                bookCounts = #{bookCounts}
+            </if>
+            <if test="detail != null">
+                detail = #{detail}
+            </if>
+        </set>
+        where bookID = #{bookID}
+    </update>
+
+    <delete id="deleteById" parameterType="xiaopeng.zdys.pojo.Books">
+        delete from books where bookID = #{bookID}
+    </delete>
+
+    <select id="findById" resultType="xiaopeng.zdys.pojo.Books">
+        select * from books where bookID = #{bookID}
+    </select>
+
+    <select id="findAllBook" resultType="xiaopeng.zdys.pojo.Books">
+        select * from books
+    </select>
+
+
+</mapper>

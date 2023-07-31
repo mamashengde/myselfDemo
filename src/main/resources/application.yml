@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: ${xiaopeng.datasource.driver-class-name}
+    url: jdbc:mysql://${xiaopeng.datasource.host}:${xiaopeng.datasource.port}/${xiaopeng.datasource.database}?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    username: ${xiaopeng.datasource.username}
+    password: ${xiaopeng.datasource.password}
+
+logging:
+  level:
+    root: WARN
