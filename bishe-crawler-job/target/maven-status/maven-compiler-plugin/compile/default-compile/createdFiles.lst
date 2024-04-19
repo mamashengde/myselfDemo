@@ -1,0 +1,17 @@
+cn\itcast\job\utils\ChromeDownloader.class
+cn\itcast\job\task\JobProcessor.class
+cn\itcast\job\pojo\JobInfo.class
+cn\itcast\job\mapper\JobInfoMapper.class
+cn\itcast\job\service\JobInfoService.class
+cn\itcast\job\dao\JobInfoDao.class
+cn\itcast\job\utils\HttpUtils.class
+cn\itcast\job\dao\CompanyInfoDao.class
+cn\itcast\job\service\CompanyInfoService.class
+cn\itcast\job\pojo\companyIndustry.class
+cn\itcast\job\Application.class
+cn\itcast\job\utils\InfoHandler.class
+cn\itcast\job\pojo\CompanyInfo.class
+cn\itcast\job\service\Impl\CompanyInfoServiceImpl.class
+cn\itcast\job\service\Impl\JobInfoServiceImpl.class
+cn\itcast\job\task\SpringDataPipeline.class
+cn\itcast\job\mapper\CompanyInfoMapper.class

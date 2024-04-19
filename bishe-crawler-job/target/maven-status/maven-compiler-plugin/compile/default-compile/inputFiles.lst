@@ -1,0 +1,17 @@
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\utils\ChromeDownloader.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\mapper\JobInfoMapper.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\service\CompanyInfoService.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\service\JobInfoService.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\task\JobProcessor.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\dao\CompanyInfoDao.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\pojo\CompanyInfo.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\dao\JobInfoDao.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\mapper\CompanyInfoMapper.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\pojo\JobInfo.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\task\SpringDataPipeline.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\pojo\companyIndustry.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\utils\HttpUtils.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\Application.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\service\Impl\JobInfoServiceImpl.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\service\Impl\CompanyInfoServiceImpl.java
+G:\DaSiXia\bishe-crawler-job\src\main\java\cn\itcast\job\utils\InfoHandler.java
